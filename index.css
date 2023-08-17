@@ -1,4 +1,17 @@
 
 body {
     text-align: center;
+    color: white;
+    background-color: black;
+}
+
+.ds {
+
+    margin-bottom: 30%;
+
+}
+
+.b {
+    width: 80% ;
+    margin-bottom: 30%;
 }
