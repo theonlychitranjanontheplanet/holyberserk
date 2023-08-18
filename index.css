@@ -11,7 +11,28 @@ body {
 
 }
 
+@keyframes example {
+
+    from {left: -30%;}
+    to {left: 0%;}
+
+}
+
+@keyframes example2 {
+
+    0%{opacity: 0%;}
+    25%{opacity: 0%;}
+    50%{opacity: 25%;}
+    100%{opacity: 100%;}
+}
+
 .b {
     width: 80% ;
     margin-bottom: 30%;
+
+    
+    position: relative;
+    animation: example 2s ease-in-out forwards, example2 3s ease-out forwards;
+
 }
+
